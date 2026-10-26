@@ -1,0 +1,24 @@
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local vector indexes and generated data
+vectorstore/
+vectorstores/
+chroma_db/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
